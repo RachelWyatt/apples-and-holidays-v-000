@@ -40,7 +40,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_formatted = holiday.to_s.tr("_", " ")
       supplies_formatted = supplies.to_s
     end
-
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
